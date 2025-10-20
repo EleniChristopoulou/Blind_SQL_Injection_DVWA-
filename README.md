@@ -25,6 +25,10 @@
   Head to `SQL Injection (Blind)` tab
 <p align="center"><img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
 
+| Left Align (default) | Center Align | 
+| :------------------- | :----------: |
+| <img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" />            | <img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" />     | 
+
 ### Step 6
   Configure Proxy for Burp Suite to work
 <p align="center"></p>
