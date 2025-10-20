@@ -28,7 +28,7 @@
   By default website can only return two Options, without any further data being displayed, based whether the User exists or not as stated.
 | Option A | Option B | 
 | :------------------: | :----------: |
-| <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
+| <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
 
 ### Step 6
   Configure Proxy for Burp Suite to work
