@@ -55,6 +55,13 @@
 
 -----
 
+### Step 10
+  Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection (Blind)` tab we submit any type of value, our goal is just to see the log.
+
+  Since I submited the value 1, I have respected result.
+  <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
+
+
 ## Script Running
   To run the script run the following command
   ```
