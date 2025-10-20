@@ -50,7 +50,7 @@
 <p align="center"><img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" /> </p>
 
   Lastly, do not forget to turn on the proxy!
-<p align="center"><img width="340" height="325" alt="image" src="https://github.com/user-attachments/assets/781dc200-16f4-4462-8307-bade22419053" /></p>
+<p align="center"><img width="170" height="160" alt="image" src="https://github.com/user-attachments/assets/781dc200-16f4-4462-8307-bade22419053" /></p>
 
 
 
