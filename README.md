@@ -71,14 +71,20 @@
 <br>
   Therefore the query I have used is the following:
 
-  `' OR (SELECT password FROM users WHERE user_id = 1) LIKE 'A%';#`
-<br>
+  `' OR (SELECT password FROM users WHERE user_id = 1) LIKE 'A%';#`<br>
+  
   It basically asks the server whether the user with ID being equal to 1 (which we know exists), their password begins with A, A was of course a random selection out of the 16 hex characters.<br>
 
   We are not interested for know to necesserally get a positive answer from the server, we are just crafting the query for know.
   <p align="center"><img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/0736f25e-0682-48be-a4ec-e2a9eb16e469" /></p>
 
+Looking the screenshot above, the response is negative meaning that the password does not start with A.<br>
+We could manually of course try all the 16 possibilities... if we are mad enough!<br>
 
+OR<br>
+We could utilize the Intruder function of Burp, <br>
+OR<br>
+Make our own homemade python script!
 
 ## Script Running
   To run the script run the following command
