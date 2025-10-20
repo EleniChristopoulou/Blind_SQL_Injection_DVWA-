@@ -1,4 +1,4 @@
-# Blind_SQL_Injection_DVWA-
+# Blind_SQL_Injection_DVWA
 
 ## Brief Description
 
