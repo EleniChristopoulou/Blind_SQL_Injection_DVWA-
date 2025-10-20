@@ -36,6 +36,10 @@
 <p align="center"><img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/8e5ef056-1275-46af-8442-a531a81dadf0" /></p>
 
 ### Step 7
+  Then head to `Settings` within Burp and do the following configurations.
+<p align="center"><img width="961" height="736" alt="image" src="https://github.com/user-attachments/assets/acbe0ef8-d41a-404f-8226-53fb706a9329" /> </p>
+
+### Step 8
   In the meantime locally add the proxy as listed bellow, via `Settings` on the `Network` tab. 
 <p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
 
