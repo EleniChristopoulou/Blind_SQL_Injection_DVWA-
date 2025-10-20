@@ -45,10 +45,10 @@
 
 ### Step 9
   Finally we need to configure the extension called `Foxy Proxy` 
-  [foxyproxy]: [https://github.com/adam-p/markdown-here](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/)
+  [foxyproxy]: https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/
  [Click][foxyproxy] to  add the extension.
 <p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
-<img width="946" height="481" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" />
+<img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" />
 
 
 
