@@ -31,8 +31,8 @@
 | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
 
 ### Step 6
-  Configure Proxy for Burp Suite to work
-<p align="center"></p>
+  Configure Proxy for Burp Suite to work. First open the BurpSuite tool and do the following steps that captured below.
+<p align="center"><img width="953" height="407" alt="image" src="https://github.com/user-attachments/assets/8e5ef056-1275-46af-8442-a531a81dadf0" /></p>
 
 ## Script Running
   To run the script run the following command
