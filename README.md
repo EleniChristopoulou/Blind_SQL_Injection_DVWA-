@@ -25,6 +25,7 @@
   Head to `SQL Injection (Blind)` tab
 <p align="center"><img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
 
+  By default website can only return two Options, without any further data being displayed.
 | Option A | Option B | 
 | :------------------: | :----------: |
 | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
