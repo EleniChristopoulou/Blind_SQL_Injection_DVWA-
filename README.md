@@ -27,7 +27,9 @@
 
 | Left Align (default) | Center Align | 
 | :------------------- | :----------: |
-| <img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" />            | <img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" />     | 
+| <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />
+           | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/6b172a10-59c7-4584-9d45-562e6e03bb84" />
+    | 
 
 ### Step 6
   Configure Proxy for Burp Suite to work
