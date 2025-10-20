@@ -23,7 +23,7 @@
 
 ### Step 5
   Head to `SQL Injection (Blind)` tab
-<p align="center"><img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
+<p align="center"><img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
 
   By default website can only return two Options, without any further data being displayed.
 | Option A | Option B | 
