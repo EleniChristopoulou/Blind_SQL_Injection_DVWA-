@@ -21,6 +21,10 @@
   Click on  `Create / Reset Database`
 <p align="center"><img width="920" height="335" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
 
+### Step 5
+  Head to `SQL Injection (Blind)` tab
+<p align="center"><<img width="914" height="654" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
+
 
 ## Script Running
 
