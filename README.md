@@ -34,6 +34,11 @@
   Configure Proxy for Burp Suite to work. First open the BurpSuite tool and do the following steps that captured below.
 <p align="center"><img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/8e5ef056-1275-46af-8442-a531a81dadf0" /></p>
 
+### Step 7
+  In the meantime locally add the proxy as listed bellow, via `Settings` on the `Network` tab. 
+<p align="center"><img width="710" height="402" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
+
+
 ## Script Running
   To run the script run the following command
   ```
