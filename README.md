@@ -69,8 +69,10 @@
   2. At least two columns within the `users` table exist called `user_id` and `password`
   3. The passwords are in a hashed, meaning they are written in hex.
 <br>
-  Therefore the query I have used is the following <br>
-  `' OR (SELECT password FROM users WHERE user_id = 1) LIKE 'A%';#` <br>
+  Therefore the query I have used is the following:
+
+  `' OR (SELECT password FROM users WHERE user_id = 1) LIKE 'A%';#`
+<br>
   It basically asks the server whether the user with ID being equal to 1 (which we know exists), their password begins with A, A was of course a random selection out of the 16 hex characters.<br>
 
   We are not interested for know to necesserally get a positive answer from the server, we are just crafting the query for know.
