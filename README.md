@@ -105,3 +105,27 @@ Now we are ready to go!
   python3 sc2.py
   ```
 Hey, do not forget to cd within the directory where you python script is! :) You are welcome.
+
+### Step 13 (But faster)
+  To run the script run the following command
+  ```
+ python3 sc_speed.py
+  ```
+
+https://github.com/user-attachments/assets/94d40bf2-b7be-442f-886f-bc643261805d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
