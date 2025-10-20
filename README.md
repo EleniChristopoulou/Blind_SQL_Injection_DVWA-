@@ -100,7 +100,8 @@ Then search within the python script for the cookie and replace it. Just as stat
 Now we are ready to go!
 
 ### Step 13
-  To run the script run the following command
+  To run the script run the following command <br>
+  This a slow script, the purpose is to observe and understand how the algorithm operates behind, for furtther improvement.<br>
   ```
   python3 sc2.py
   ```
