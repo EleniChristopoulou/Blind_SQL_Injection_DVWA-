@@ -15,11 +15,11 @@
 ### Step 3
   Now enter credentials for Username: `admin` Password: `password`
 
-<p align="center"><img width="454" height="405" alt="image" src="https://github.com/user-attachments/assets/9c6c1812-427c-4518-a57e-7196e2843844" /></p>
+<p align="center"><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/9c6c1812-427c-4518-a57e-7196e2843844" /></p>
 
 ### Step 4
   Click on  `Create / Reset Database`
-<p align="center"><img width="920" height="335" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
+<p align="center"><img width="750" height="275" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
 
 ### Step 5
   Head to `SQL Injection (Blind)` tab
