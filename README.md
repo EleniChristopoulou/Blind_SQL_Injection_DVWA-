@@ -15,15 +15,15 @@
 ### Step 3
   Now enter credentials for Username: `admin` Password: `password`
 
-<p align="center"><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/9c6c1812-427c-4518-a57e-7196e2843844" /></p>
+<p align="center"><img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/9c6c1812-427c-4518-a57e-7196e2843844" /></p>
 
 ### Step 4
   Click on  `Create / Reset Database`
-<p align="center"><img width="750" height="275" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
+<p align="center"><img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
 
 ### Step 5
   Head to `SQL Injection (Blind)` tab
-<p align="center"><img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
+<p align="center"><img width="600" height="325" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
 
   By default website can only return two Options, without any further data being displayed, based whether the User exists or not as stated.
 | Option A | Option B | 
