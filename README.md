@@ -28,7 +28,7 @@
 | Left Align (default) | Center Align | 
 | :------------------- | :----------: |
 | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />
-           | <img width="605" height="320" alt="image" src="https://github.com/user-attachments/assets/6b172a10-59c7-4584-9d45-562e6e03bb84" />
+           | <img width="615" height="317" alt="image" src="https://github.com/user-attachments/assets/6b172a10-59c7-4584-9d45-562e6e03bb84" />
     | 
 
 ### Step 6
