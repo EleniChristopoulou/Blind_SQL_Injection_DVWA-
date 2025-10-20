@@ -84,7 +84,18 @@ We could manually of course try all the 16 possibilities... if we are mad enough
 OR<br>
 We could utilize the Intruder function of Burp, <br>
 OR<br>
-Make our own homemade python script!
+Make our own homemade python script!<br>
+
+To be more precise, I will make the script and you can just download it and run it, or of course make your own.<br>
+
+However if you decide to go my way, it is really important to modify just one parameter, which is the cookie session.<br>
+
+Don't panic is just a simple Ctrl+C Ctrl+V situation.
+
+### Step 12
+Within the Burp, simply copy the cookie session.
+Then search within the python script for the cookie and replace it. Just as stated in the screenshot bellow<br>
+<p align="center"><img width="1427" height="401" alt="image" src="https://github.com/user-attachments/assets/cb5889a8-f3e0-43eb-b345-190678e48a51" /></p>
 
 ## Script Running
   To run the script run the following command
