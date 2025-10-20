@@ -61,6 +61,21 @@
   Since I submited the value 1, I have respected query, within the id hold the value 1. bY following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
 
+  ### Step 11
+  This is the part where we experiement with our SQL injection queries. <br>
+  Now it is important to state that certain information are know in order to run the query.<br>
+  We know about: <br>
+  1. The table named `users`, where users of the website are stored.
+  2. At least two columns within the `users` table exist called `user_id` and `password`
+  3. The passwords are in a hashed, meaning they are written in hex.<br>
+  Therefore the query I have used is the following <br>
+  `' OR (SELECT password FROM users WHERE user_id = 1) LIKE 'A%';#`
+  It basically asks the server whether the user with ID being equal to 1 (which we know exists), their password begins with A, A was of course a random selection out of the 16 hex characters.<br>
+
+  We are not interested for know to necesserally get a positive answer from the server, we are just crafting the query for know.
+  <p align="center"><img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/0736f25e-0682-48be-a4ec-e2a9eb16e469" /></p>
+
+
 
 ## Script Running
   To run the script run the following command
