@@ -44,10 +44,10 @@
 <p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
 
 ### Step 9
-  Finally we need to configure the extension called `Foxy Proxy` 
+  Finally we need to configure the extension called `Foxy Proxy`
+  
  [Click](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/) to  add the extension.
-<p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
-<img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" />
+<p align="center">m<img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" /> </p>
 
 
 
