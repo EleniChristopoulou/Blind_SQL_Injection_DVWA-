@@ -97,8 +97,11 @@ Within the Burp, simply copy the cookie session.
 Then search within the python script for the cookie and replace it. Just as stated in the screenshot bellow<br>
 <p align="center"><img width="1427" height="401" alt="image" src="https://github.com/user-attachments/assets/cb5889a8-f3e0-43eb-b345-190678e48a51" /></p>
 
-## Script Running
+Now we are ready to go!
+
+### Step 13
   To run the script run the following command
   ```
   python3 sc2.py
   ```
+Hey, do not forget to cd within the directory where you python script is! :) You are welcome.
