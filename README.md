@@ -1,63 +1,16 @@
 # Blind_SQL_Injection_DVWA
 
 ## Step 1
-  Run the DVWA docker through terminal
-  ```
-  sudo docker run --rm -it -p 80:80 vulnerables/web-dvwwa
-  ```
+  In case you are planning to follow along, I would recommend to follow my intial steup guide. <br>
+ [Click](https://github.com/EleniChristopoulou/DVWA_Initial_Setup-/tree/main) here to check it out.
+
 ## Step 2
-  Open the browser enter `http://localhost/login.php`
-
-## Step 3
-  Now enter credentials for Username: `admin` Password: `password`
-
-<p align="center"><img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/9c6c1812-427c-4518-a57e-7196e2843844" /></p>
-
-## Step 4
-  Click on  `Create / Reset Database`
-<p align="center"><img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/b83ad2b3-9b5a-4755-9e3e-47fb6bd7b9c3" /></p>
-
-## Step 5
-  Head to `SQL Injection (Blind)` tab
-<p align="center"><img width="600" height="325" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
-
-  By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
-| Option A | Option B | 
-| :------------------: | :----------: |
-| <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
-
------
-### Step 6
-  Configure Proxy for Burp Suite to work. 
-  First open the BurpSuite tool and do the following steps that captured below.
-<p align="center"><img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/8e5ef056-1275-46af-8442-a531a81dadf0" /></p>
-
-### Step 7
-  Then head to `Settings` within Burp and do the following configurations.
-<p align="center"><img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/acbe0ef8-d41a-404f-8226-53fb706a9329" /> </p>
-
-### Step 8
-  In the meantime locally add the proxy as listed bellow, via `Settings` on the `Network` tab. 
-<p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
-
-### Step 9
-  Finally we need to configure the extension called `Foxy Proxy` <br>
- [Click](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/) to  add the extension. <br>
- Then add the following configurations.
-<p align="center"><img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/0275b518-ba4b-4fb3-ae63-a46d9abaf0e2" /> </p>
-
-  Lastly, do not forget to turn on the proxy!
-<p align="center"><img width="170" height="160" alt="image" src="https://github.com/user-attachments/assets/781dc200-16f4-4462-8307-bade22419053" /></p>
-
------
-
-## Step 10
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection (Blind)` tab we submit any type of value, our goal is just to see the log.
 
   Since I submited the value 1, I have respected query, within the id hold the value 1. bY following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
 
-  ### Step 11
+  ### Step 3
   This is the part where we experiement with our SQL injection queries. <br>
   Now it is important to state that certain information are know in order to run the query.<br>
   We know about: <br>
@@ -88,14 +41,14 @@ However if you decide to go my way, it is really important to modify just one pa
 
 Don't panic is just a simple Ctrl+C Ctrl+V situation.
 
-## Step 12
+## Step 4
 Within the Burp, simply copy the cookie session.
 Then search within the python script for the cookie and replace it. Just as stated in the screenshot bellow<br>
 <p align="center"><img width="1427" height="401" alt="image" src="https://github.com/user-attachments/assets/cb5889a8-f3e0-43eb-b345-190678e48a51" /></p>
 
 Now we are ready to go!
 
-## Step 13
+## Step 5
   To run the script run the following command <br>
   This a slow script, the purpose is to observe and understand how the algorithm operates behind, for furtther improvement.<br>
   ```
@@ -103,7 +56,7 @@ Now we are ready to go!
   ```
 Hey, do not forget to cd within the directory where you python script is! :) You are welcome.
 
-## Step 13 (But faster)
+## Step 5 (But faster)
   To run the script run the following command
   ```
  python3 sc_speed.py
