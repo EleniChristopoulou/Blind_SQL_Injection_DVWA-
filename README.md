@@ -18,7 +18,7 @@
 ## Step 3
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection (Blind)` tab we submit any type of value, our goal is just to see the log.
 
-  Since I submited the value 1, I have respected query, within the id hold the value 1. bY following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
+  Since I submited the value 1, I receive the respected query, within the id hold the value 1. By following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
 
 ## Step 4
