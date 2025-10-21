@@ -5,7 +5,9 @@
  [Click](https://github.com/EleniChristopoulou/DVWA_Initial_Setup-/tree/main) here to check it out.
 
 ## Step 2
-  Head to `SQL Injection (Blind)` tab
+  Now it is the time where we interact with site in order to discover actual functionality.<br>
+  It is important to pay attention on the input and the output.<br>
+  Head to `SQL Injection (Blind)` tab.
 <p align="center"><img width="600" height="325" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
 
   By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
