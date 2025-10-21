@@ -5,12 +5,21 @@
  [Click](https://github.com/EleniChristopoulou/DVWA_Initial_Setup-/tree/main) here to check it out.
 
 ## Step 2
+  Head to `SQL Injection (Blind)` tab
+<p align="center"><img width="600" height="325" alt="image" src="https://github.com/user-attachments/assets/38f2f475-2b76-41e5-8c3d-6e5653cbd1cd" /> </p>
+
+  By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
+| Option A | Option B | 
+| :------------------: | :----------: |
+| <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
+
+## Step 3
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection (Blind)` tab we submit any type of value, our goal is just to see the log.
 
   Since I submited the value 1, I have respected query, within the id hold the value 1. bY following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
 
-## Step 3
+## Step 4
   This is the part where we experiement with our SQL injection queries. <br>
   Now it is important to state that certain information are know in order to run the query.<br>
   We know about: <br>
@@ -41,14 +50,14 @@ However if you decide to go my way, it is really important to modify just one pa
 
 Don't panic is just a simple Ctrl+C Ctrl+V situation.
 
-## Step 4
+## Step 5
 Within the Burp, simply copy the cookie session.
 Then search within the python script for the cookie and replace it. Just as stated in the screenshot bellow<br>
 <p align="center"><img width="1427" height="401" alt="image" src="https://github.com/user-attachments/assets/cb5889a8-f3e0-43eb-b345-190678e48a51" /></p>
 
 Now we are ready to go!
 
-## Step 5
+## Step 6
   To run the script run the following command <br>
   This a slow script, the purpose is to observe and understand how the algorithm operates behind, for furtther improvement.<br>
   ```
@@ -56,7 +65,7 @@ Now we are ready to go!
   ```
 Hey, do not forget to cd within the directory where you python script is! :) You are welcome.
 
-## Step 5 (But faster)
+## Step 6 (But faster)
   To run the script run the following command
   ```
  python3 sc_speed.py
