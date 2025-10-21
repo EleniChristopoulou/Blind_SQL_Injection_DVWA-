@@ -27,20 +27,20 @@
 | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/5df58529-73e3-4d91-bb7f-8ca7059918bd" />  | <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/fab242b8-f33e-4102-bc1c-76470dda3d86" />  | 
 
 -----
-## Step 6
+### Step 6
   Configure Proxy for Burp Suite to work. 
   First open the BurpSuite tool and do the following steps that captured below.
 <p align="center"><img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/8e5ef056-1275-46af-8442-a531a81dadf0" /></p>
 
-## Step 7
+### Step 7
   Then head to `Settings` within Burp and do the following configurations.
 <p align="center"><img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/acbe0ef8-d41a-404f-8226-53fb706a9329" /> </p>
 
-## Step 8
+### Step 8
   In the meantime locally add the proxy as listed bellow, via `Settings` on the `Network` tab. 
 <p align="center"><img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/5463867f-ceb2-45d6-9e73-a1b198fe479d" /> </p>
 
-## Step 9
+### Step 9
   Finally we need to configure the extension called `Foxy Proxy` <br>
  [Click](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/) to  add the extension. <br>
  Then add the following configurations.
@@ -51,7 +51,7 @@
 
 -----
 
-### Step 10
+## Step 10
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection (Blind)` tab we submit any type of value, our goal is just to see the log.
 
   Since I submited the value 1, I have respected query, within the id hold the value 1. bY following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
