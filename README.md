@@ -22,6 +22,16 @@
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/b1c574c7-7a23-40d7-a1a3-26196d7f5641" /></p>
 
 ## Step 4
+  On the repeater tab we will insert our first vary basic SQL Injection, forward it and view the results by rendering the response query we received from the server.
+  
+  The query I used: <br>
+  ``` 
+    ' OR 1=1 #
+  ```
+
+  <p align="center"><img width="500" height="410" alt="image" src="https://github.com/user-attachments/assets/31c5729c-d4e2-4468-a993-4ec416665301" /></p>
+  
+## Step 5
   This is the part where we experiement with our SQL injection queries. <br>
   Now it is important to state that certain information are know in order to run the query.<br>
   We know about: <br>
@@ -52,14 +62,14 @@ However if you decide to go my way, it is really important to modify just one pa
 
 Don't panic is just a simple Ctrl+C Ctrl+V situation.
 
-## Step 5
+## Step 6
 Within the Burp, simply copy the cookie session.
 Then search within the python script for the cookie and replace it. Just as stated in the screenshot bellow<br>
 <p align="center"><img width="1427" height="401" alt="image" src="https://github.com/user-attachments/assets/cb5889a8-f3e0-43eb-b345-190678e48a51" /></p>
 
 Now we are ready to go!
 
-## Step 6
+## Step 7
   To run the script run the following command <br>
   This a slow script, the purpose is to observe and understand how the algorithm operates behind, for furtther improvement.<br>
   ```
@@ -67,7 +77,7 @@ Now we are ready to go!
   ```
 Hey, do not forget to cd within the directory where you python script is! :) You are welcome.
 
-## Step 6 (But faster)
+## Step 7 (But faster)
   To run the script run the following command
   ```
  python3 sc_speed.py
